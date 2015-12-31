@@ -371,12 +371,13 @@
 	0% {opacity:0;}
 	40% {opacity:0;}
 	60% {opacity:0.4;font-size: 35px;}
-	100% {opacity:1;font-size:70px; color:black;border-bottom: 5px #EE3B3B solid;}
+	100% {opacity:1;font-size:70px; color:black;border-bottom:5px #EE3B3B solid;}
 }
 
 @keyframes final-second
 {
-	100% {border:5px #8B1A1A dashed ; color:black;}
+	50% {border:0px dashed;}
+	100% {border:4px #8B1A1A dashed ; color:black;}
 }
 #final-logo{
 	width:320px;
@@ -385,5 +386,4 @@
 	left:6%;
 	border: solid 3px black;
 	box-shadow: 
-
 }

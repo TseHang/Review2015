@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 
-    <title>reveal.js</title>
+    <title>Review 2015 || 用數據看台灣</title>
 
     <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
     <meta name="author" content="Meng-tse Hang">
@@ -27,11 +27,10 @@
       link.rel = 'stylesheet';
       link.type = 'text/css';
       link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-      document.getElementsByTagName( 'head' )[0].appendChild( link );
     </script>
 
     <style>
-      @import url(https://fonts.googleapis.com/css?family=Indie+Flower|Montserrat:400,700|Orbitron:500|Courgette|Coming+Soon|Bad+Script);
+      @import url(https://fonts.googleapis.com/css?family=Orbitron:500,400);
     </style>
 
 
@@ -40,9 +39,9 @@
   <!-- 使用 reveal 與 slides 的 div 將整個簡報包起來 -->
   <div class="reveal" >
     <div class="slides" >
-    <div id = "photo" >
-          <p style = "margin:0px;"> Photo by <span id = "photo-name" style = "font-weight:900">bryan...</span></p>
-        </div>
+      <div id = "photo" >
+        <p style = "margin:0px;"> Photo by <span id = "photo-name" style = "font-weight:900">bryan...</span></p>
+      </div>
       <!-- 簡報內容開始 -->
       <section data-background = "reveal-pic/bryan.jpg" class = "wrap-white">
         <div id = "box-rtol"></div>
@@ -73,7 +72,7 @@
         <p id = "d3-p2"> *備轉容量率(Percent Operating Reserve)：係用來衡量每日供電可靠度之指標。</p>
         <p ><a id = "d3-link1" href="http://water.taiwanstat.com"><即時電力資訊&nbsp;&nbsp;</a><a id = "d3-link1" href="http://www.taipower.com.tw/content/new_info/new_info_in.aspx?LinkID=26">相關資訊></a></p>
         <div id = "d3-wrap">
-          <p id = "d3-note"> Note:<span id = "d3-notice"> 一千瓦 = 一小時的耗電量 &nbsp;&nbsp; 又冷氣一小時耗電率約為900瓦 => 3496萬千瓦約 = <span style = "color:red; font-size:24px;">連續開冷氣4.43年</span></span></p>
+          <p id = "d3-note"> Note:<span id = "d3-notice"> 一千瓦 = 一小時的耗電量 &nbsp;&nbsp; 又冷氣一小時耗電率約為900瓦 =><span style = "color:red; font-size:24px;"> 3496萬千瓦約 = 連續開冷氣4.43年</span></span></p>
         </div>
       </section>
 
@@ -98,7 +97,7 @@
       </section>
       <section data-transition = "convex" data-background = "reveal-pic/25.jpg" id = "wrap-white-oil">
         <p id = "number">1<span id = "number-sub">025</span>9<span id = "number-sub">67</span></p>
-        <p id = "d5-p1" style = "width:90%;left:-100px">台灣油價創12年新低, 國際油價大跌?</p>
+        <p id = "d5-p1" style = "width:90%;left:-100px">12月, 台灣油價創12年新低, 國際油價大跌?</p>
         <p id = "d5-p1" style = "text-align:right;"> 92無鉛汽油每公升降至<span style = "font-size:80px; color:red">19.9</span>元</p>
         <p id = "d5-p2"> *<span style = "color:#006400; font-weight:900;font-size:22px">同時沙烏地阿拉伯國內油價調漲40%.</span> 從 2014年年中，國際油價跌到一桶 40美元以下後，沙烏地阿拉伯的收入就大幅減少，2015年收入更是 2009年金融危機引起油價下跌以來到現在最少的一次。沙國2015年收入比預計的少了 15%，跟 2014年相比更是少了 42%。</p>
         <p ><a id = "d5-link1" href="http://real.taiwanstat.com/oil/"><即時油價資訊&nbsp;&nbsp;</a><a id = "d5-link1" href="http://www.epochtimes.com/b5/15/12/27/n4605138.htm">相關資訊></a></p>
@@ -108,10 +107,10 @@
       </section>
 
       <!-- 水庫 -->
-      <section class = "wrap-white" data-background = "reveal-pic/28.jpg">
+      <section class = "wrap-white" data-background = "reveal-pic/28.jpg" data-transition = "convex">
         <h1 id = "big-number"> 67 </h1>
       </section>
-      <section data-transition = "convex" data-background = "reveal-pic/27.jpg" id = "wrap-white-water" style = "color:#F0FFF0">
+      <section  data-background = "reveal-pic/27.jpg" id = "wrap-white-water" style = "color:#F0FFF0">
         <p id = "number-water" ><span id = "number-water-sub">10259</span>67</p>
         <p id = "d5-p1" style = "width:90%;left:-100px">三月, 水庫嚴重<span style = "font-size:50px">缺水！</span></p>
         <p id = "d5-p1" style = "text-align:right;"> 台灣面臨<span style = "font-size:80px; color:red">67</span>年來最嚴重乾旱</p>
@@ -122,18 +121,14 @@
         </div>
       </section>
 
-      <section data-background = "black" data-transition = "zoom">
-        <p id = "d10-p1">10<span style = "color:#f08080">25</span><span style = "color:#add8e6">9</span><span style = "color:#7fffd4">67</span> <span style = "font-size:27px;color:#778899">7個數字, 隱含著4個重大民生議題</span></p>
-        <!--
-        <p id = "d2-p2"><span style = "font-size:27px;color:#778899">一道式子</span> &nbsp;&nbsp;40000+211</p>
--->
-        <p id = "d10-p3"class="fragment fade-in "> 水量&nbsp;&nbsp;<span style = "color:#add8e6">油價&nbsp;&nbsp;</span><span style = "color:#f08080">空汙&nbsp;&nbsp;</span><span style = "color:#faebd7">電力</span></p> 
+      <section data-transition = "concave" data-background = "reveal-pic/29.jpg" id = "wrap-conculsion">
+        <p id = "final-title"> 一切真的就只是<span id = "conculision-big">&nbsp;數字&nbsp;</span> 而已嗎？</p>
       </section>
 
-      <section data-transition = "concave" data-background = "reveal-pic/29.jpg" id = "wrap-conculsion">
-        <p id = "final-sub"> Maybe we can think:</p>
-        <p id = "final-title"> 一切真的就只是<span style = "color:#FF3030; font-weight:900; font-size:85px;">數字</span>而已嗎? </p>
+      <section data-background = "black" data-transition = "zoom">
+        <p id = "d10-p1">10<span style = "color:#f08080">25</span><span style = "color:#add8e6">9</span><span style = "color:#7fffd4">67</span> <span style = "font-size:27px;color:#778899">7個數字, 隱含著4個重大民生議題</span></p>
 
+        <p id = "d10-p3" class="fragment fade-in "> 水量&nbsp;&nbsp;<span style = "color:#add8e6">油價&nbsp;&nbsp;</span><span style = "color:#f08080">空汙&nbsp;&nbsp;</span><span style = "color:#faebd7">電力</span></p> 
       </section>
 
       <section data-background = "reveal-pic/30.jpg" id = "wrap-final">
@@ -169,29 +164,24 @@
       overview: true,
 
       transition: 'zoom', // none/fade/slide/convex/concave/zoom
-
-      // 加入一些 reveal.js 的外掛
-      dependencies:
-      [
-        { src: 'reveal.js-3.2.0/plugin/highlight/highlight.js',
-          async: true, condition: function() {
-            return !!document.querySelector( 'pre code' );
-          },
-          callback: function() {
-            hljs.initHighlightingOnLoad();
-          }
-        }
-      ]
     });
 
     Reveal.addEventListener( 'slidechanged', function( event ) {
       var x = event.indexh ;
       if (x == "")
+      {
         $("#photo-name").text("bryan...") 
+        $('#photo').css("display","block")
+      }
       if (x == 1)
-        $("#photo-name").text("") 
+      {
+        $('#photo').css("display","none")
+      }
       if (x == 2)
+      {
         $("#photo-name").text("Don McCullough") 
+        $('#photo').css("display","block")
+      }
       if (x == 3)
         $("#photo-name").text("Ryan Lackey") 
       if (x == 4)
@@ -205,25 +195,51 @@
       if (x == 8)
         $("#photo-name").text("Pablo Fernández")
       if (x == 9)
-        $("#photo-name").text("Viewminder")
+      {
+        $("#photo-name").text("Viewminder");
+        $('#photo').css("display","block");
+        $('#conculision-big').css("display","none") ;
+      }
       if (x == 10)
-        $("#photo-name").text("")
-      if (x == 11)
-        $("#photo-name").text("Juan Julbe")
-      if (x == 12)
-        $("#photo-name").text("tsalian")
+      {
+        $('#photo').css("display","block") ;
+        $("#photo-name").text("Juan Julbe");
 
+        $('#conculision-big').fadeIn(1800) ;
+      }
+      if (x == 11)
+      {
+        $('#photo').css("display","none");
+        $('#conculision-big').css("display","none") ;
+        
+        $("#final-2").css({
+          "border-width":"0px"
+        }) ;
+        $("#final-3").css({
+          "opacity":"0" ,
+          "font-size":"35px"
+          });
+      }
+      if (x == 12)
+      {
+        $("#photo-name").text("tsalian") ;
+
+        $("#final-2").animate({
+          borderWidth:'4px'
+        },700) ;
+        $("#final-3").animate({
+          opacity:1,
+          fontSize: '70px',
+          color:'black',
+        },1200 , 'swing') ;
+      }
     } );
 
-    Reveal.addEventListener( 'fragmentshown', function( event ) {
-       if ( event.fragment = document.getElementById("d2-p3").id )
-        console.log("222") ;
-    });
     // Slide every five seconds
-    /*Reveal.configure({
+    Reveal.configure({
 
       autoSlide: 5000,
-    });*/
+    });
   </script>
 
 

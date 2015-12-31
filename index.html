@@ -94,7 +94,7 @@
 
       <!-- 油價 -->
       <section class = "wrap-white" data-background = "reveal-pic/22.jpg">
-        <h1 id = "big-number"> 19 </h1>
+        <h1 id = "big-number"> 9 </h1>
       </section>
       <section data-transition = "convex" data-background = "reveal-pic/25.jpg" id = "wrap-white-oil">
         <p id = "number">1<span id = "number-sub">025</span>9<span id = "number-sub">67</span></p>
@@ -116,45 +116,33 @@
         <p id = "d5-p1" style = "width:90%;left:-100px">三月, 水庫嚴重<span style = "font-size:50px">缺水！</span></p>
         <p id = "d5-p1" style = "text-align:right;"> 台灣面臨<span style = "font-size:80px; color:red">67</span>年來最嚴重乾旱</p>
         <p id = "d9-p2" > *台灣缺水三大原因: <br>(1)降雨分佈不均 (2)水庫有效蓄水量偏低 (3)供水管線漏水率高達18%(偏高)</p>
-        <p ><a id = "d5-link1" href="http://real.taiwanstat.com/oil/"><即時油價資訊&nbsp;&nbsp;</a><a id = "d5-link1" href="http://www.epochtimes.com/b5/15/12/27/n4605138.htm">相關資訊></a></p>
-        <div id = "d7-wrap">
+        <p ><a id = "d5-link1" href="http://water.taiwanstat.com"><即時水庫資訊&nbsp;&nbsp;</a><a id = "d5-link1" href="http://theme.udn.com/theme/story/7490/783787-台灣缺水-三大原因">相關資訊></a></p>
+        <div id = "d7-wrap" style = "border:white dashed 3px;">
           <p id = "d5-note"> Note:&nbsp;&nbsp;<span id = "d3-notice">2014年到2015年的秋冬降雨量創新低紀錄, 且一度實施三階段限水</span></p>
         </div>
       </section>
 
-      <section data-transition = "convex" data-background = "#00bfff">
-        <p id = "month">Mar. 3月</p>
-        <p id = "d3-p1"> 台灣面臨67年來最嚴重的乾旱</p>
-        <p id = "d3-p2"> 降雨分佈不均<br>水庫有效蓄水量偏低<br>供水管線漏水率高達18%(偏高)</p>
-        <div id = "d3-wrap">
-          <p id = "d3-p3"> 去年到今年的秋冬降雨量創新低紀錄<br>一度實施三階段限水 </p>
-        </div>
-        <p><a id = "d3-link" href="http://water.taiwanstat.com">即時水庫情況</a></p>
-        <iframe id = "water" src="http://water.taiwanstat.com" width="355" height="530" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+      <section data-background = "black" data-transition = "zoom">
+        <p id = "d10-p1">10<span style = "color:#f08080">25</span><span style = "color:#add8e6">9</span><span style = "color:#7fffd4">67</span> <span style = "font-size:27px;color:#778899">7個數字, 隱含著4個重大民生議題</span></p>
+        <!--
+        <p id = "d2-p2"><span style = "font-size:27px;color:#778899">一道式子</span> &nbsp;&nbsp;40000+211</p>
+-->
+        <p id = "d10-p3"class="fragment fade-in "> 水量&nbsp;&nbsp;<span style = "color:#add8e6">油價&nbsp;&nbsp;</span><span style = "color:#f08080">空汙&nbsp;&nbsp;</span><span style = "color:#faebd7">電力</span></p> 
       </section>
 
-      <section data-background="#ff0000" data-background-transition="slide">
-    <h2>All CSS color formats are supported, like rgba() or hsl().</h2>
-    <p class="fragment highlight-current-blue">blue only once</p>
-</section>
-<section data-background="http://example.com/image.png">
-    <h2>This slide will have a full-size background image.</h2>
-</section>
-<section data-background="http://example.com/image.png" data-background-size="100px" data-background-repeat="repeat" data-transition="slide-in fade-out">
-    <h2>This background image will be sized to 100px and repeated.</h2>
-</section>
-<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-video-loop>
-    <h2>Video. Multiple sources can be defined using a comma separated list. Video will loop when the data-background-video-loop attribute is provided.</h2>
-</section>
-<section data-background-iframe="https://slides.com">
-    <h2>Embeds a web page as a background. Note that the page won't be interactive.</h2>
-</section>
+      <section data-transition = "concave" data-background = "reveal-pic/29.jpg" id = "wrap-conculsion">
+        <p id = "final-title"> 但一切真的就只是<span style = "color:#FF3030; font-weight:900; font-size:85px;">數字</span>而已嗎? </p>
 
-      <section data-markdown>
-    <script type="text/template">
-        Markdown content
-    </script>
-</section>
+      </section>
+
+      <section data-background = "reveal-pic/30.jpg" id = "wrap-final">
+        <div id = "box-rtol"></div>
+        <div id = "box-ltor"></div>
+        <p id = "final-2"> 用 數 字 看 見 台 灣</p>
+        <h2 id = "final-3"> 祝大家新年快樂</h2>
+        <img id = "final-logo" data-src = "reveal-pic/logo.png"></img>
+
+      </section>
 
       <!-- 簡報內容結束 -->
 
@@ -210,6 +198,12 @@
         $("#photo-name").text("Pablo Fernández")
       if (x == 9)
         $("#photo-name").text("Viewminder")
+      if (x == 10)
+        $("#photo-name").text("")
+      if (x == 11)
+        $("#photo-name").text("Juan Julbe")
+      if (x == 12)
+        $("#photo-name").text("tsalian")
 
     } );
 
